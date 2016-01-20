@@ -126,3 +126,8 @@ footer {
     height: 500px;
     margin-top: 50px
 }
+
+.rowA {
+    display: flex;
+    flex-direction: row;
+}

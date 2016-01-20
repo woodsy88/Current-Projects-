@@ -173,3 +173,40 @@ div {
 .slogan {
     font-weight: 300;
 }
+
+/*======================Media Queries============*/
+
+
+@media (max-width: 995px) {
+    
+    .row2 {
+        
+        margin-top: 150px;
+        
+    }
+    
+    
+}
+
+
+@media (max-width: 900px) {
+    
+    .row2 {
+        margin-top: 150px;
+        
+        
+    }
+    
+    .rowrow {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 766px){
+    .row2 {
+        margin-top: 220px;
+        
+        
+    }
+    
+}

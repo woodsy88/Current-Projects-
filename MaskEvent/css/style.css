@@ -63,8 +63,8 @@ font-family: 'Open Sans', sans-serif;
 
 .socialicons {
 display: flex;
-	justify-content: flex-end;
-	padding-top: 10px;
+	justify-content: center;
+	
 
 
 }
@@ -178,8 +178,8 @@ footer {
 }
 
 .footer {
-    display: block;
-    height: 100px;
+    
+    height: 50px;
    
     
 }
@@ -189,6 +189,14 @@ footer {
 .styleheading {
     font-family: 'Julius Sans One', sans-serif;
 }
+
+.socialicon {
+    font-size: 35px;
+    color: grey;
+    margin-right: 9px;
+}
+
+
 
 
 /*BUTTON*/
@@ -216,3 +224,37 @@ footer {
 }
 
 
+/*Media Queries*/
+
+
+@media (max-width: 995px) {
+    
+    .row2 {
+        
+        margin-top: 130px;
+       
+    }
+    
+    
+}
+
+
+@media (max-width: 420px) {
+    
+    .row2 {
+        margin-top: 300px;
+        background: blue
+    }
+    
+    .features {
+        margin-top: 35px;
+    }
+}
+
+
+@media (max-width: 998px) {
+    .socialicons {
+        margin: 150px;
+        
+    }
+}
