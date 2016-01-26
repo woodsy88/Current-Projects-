@@ -1,0 +1,33 @@
+
+body {
+	-webkit-perspective: 1000px;
+    
+}
+
+img {
+	transition: -webkit-transform 1s ease-in-out;
+}
+
+
+
+
+img:hover {
+	
+  -webkit-transform: scale(1.1); 
+}
+
+
+.socialicon {
+	transition: -webkit-transform 1s ease-in-out;
+}
+
+
+.socialicon:hover {
+	
+  -webkit-transform: scale(1.5); 
+}
+
+
+.styleheading:hover {
+    color: purple;
+}
