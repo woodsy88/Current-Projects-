@@ -1,125 +1,55 @@
 
 
-body {
-
-	font-family: 'Open Sans', sans-serif;
-}
-
-
-
-
-
-
-
-
-.topcontent {
-display: flex;
-    flex-direction: column;
-    justify-content: center;
- 
-  
-
-  
-
-}
 
 .content2 {
  text-align: center;
  font-family: 'Open Sans', sans-serif;
-    height: 200px
+   
   
   
 }
 
-
-.about {
-text-align: center;
-font-family: 'Open Sans', sans-serif;
-
-}
 
 .features {
-
 	text-align: center;
-    height: 250px;
-  
-    
-    
-}
-
-
-.blogsection{
-	display: flex;
-	justify-content: space-between;
-	justify-content: center;
-}
-
-
-.navbar {
-
-	display: flex;
-}
+     }
 
 
 .socialicons {
 text-align: center;
-	
-
-
-}
-
-
-.socialiconitem {
-	padding-right: 5px;
-}
-
-
-footer {
-	display:flex;
-	justify-content: center;
-	justify-content: space-around;
-}
-
-.logo {
-
-    width: 300px;
-    height: 300px;
-    padding-top: 60px;
-}
+	}
 
 
 
 
-
-
-
-
-
-
-
+/*BANNER SECTION*/
 .section1 {
     height: 500px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
        
 }
+
+.section1 {
+  
+  background: linear-gradient(#0E1717, transparent 90%),
+              linear-gradient(0deg, #0E1717, transparent ),
+              #ffa949 url('../img/mask1.jpg') no-repeat center;
+  background-size: cover;
+}
+
 
  
 
 
 .mainheader {
-    justify-content: center;
-    align-items: center;
     font-size: 70px;
     color: white;
-  font-family: 'Herr Von Muellerhoff', cursive;
     font-family: 'Alex Brush', cursive;
-  
- 
-    line-height: 6px;
+  line-height: 6px;
 
    
     
@@ -152,7 +82,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 105px;
+    margin-bottom: 55px;
 }
 
 .eventbutton {
@@ -165,7 +95,7 @@ footer {
 .footer {
     
     height: 150px;
-    background: lightgrey;
+    background: #800080;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,8 +103,23 @@ footer {
     
 }
 
+/*SHOT IN THE DARK*/
+.shotdark {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.head {
+    margin-left: 10px;
+    
+}
 
 
+/*STYLIZE HEADING*/
 .styleheading {
      font-family: 'Lato', sans-serif;
     font-size: 17px;
@@ -182,13 +127,17 @@ footer {
     font-weight: 600;
 }
 
+/*SOCIAL ICONS*/
+
 .socialicon {
     font-size: 35px;
-    color: grey;
+    color: green;
     margin-right: 9px;
 }
 
-
+.socialiconitem {
+	padding-right: 5px;
+}
 
 
 /*BUTTON*/
@@ -202,23 +151,14 @@ footer {
 .adress {
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 26px
 }
 
-.section1 {
-  
-  background: linear-gradient(#0E1717, transparent 90%),
-              linear-gradient(0deg, #fff, transparent),
-              #ffa949 url('../img/mask1.jpg') no-repeat center;
-  background-size: cover;
-}
-
-
 
 .row4 {
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .dead {
@@ -227,76 +167,90 @@ footer {
 }
 
 
-/*Media Queries*/
-
-
-@media (max-width: 995px) {
-    
-    .row2 {
-        
-        margin-top: 425px;
-       
-    }
-    
-    .row2nd {
-        margin-bottom: 100px;
-        
-    }
-    
-    
-}
-
-
-@media (max-width: 500px) {
-    
-    
-    
-    .features {
-        margin-top: 35px;
-    }
-    
-    .row2 {
-        
-        margin-top: 440px;
-    }
-}
-
-
-@media (max-width: 480px){
-     
-     .row2 {
-        
-        margin-top: 540px;
-         
-    }
-    
-}
-
-
-@media (max-width: 998px) {
-    .socialicons {
-        margin-top: 200px;
-        
-    }
-}
-
-@media(max-width: 680px){
-    .row2nd {
-      
-        
-    }
-    
-    .maincontain {
-        display: flex;
-        flex-direction: column;
-       
-       
-    }
-}
-
-
 p {
      font-family: 'Lato', sans-serif;
 }
 
 
+
+.row2nd {
+    margin-bottom: 30px;
+}
+
+.video {
+    max-height: 450px;
+    max-width: 450px;
+    
+}
+
+
+
+.eventlogo {
+    margin-bottom: 30px;
+}
+
+.features img {
+    width: 50px;
+}
+
+@media (max-width: 400px) {
+    
+    .adress {
+        font-size: 17px;
+    }
+}
+
+.covenant {
+    height: 25px;
+}
+
+.row5 {
+    
+    margin-bottom: 100px;
+}
+
+.covenantText {
+    text-align: center;
+}
+
+
+.row4 {
+   display: flex;
+    justify-content: center;
+}
+
+.videotext {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row5 {
+    margin-top: 100px;
+}
+
+.shotinDark {
+    
+    text-align: center;
+}
+
+.button {
+  box-shadow: 5px 5px 5px #888;  
+}
+
+.button:hover {
+    background: rebeccapurple;
+    border-color: rebeccapurple;
+    color: white;
+}
+
+
+@media (max-width: 990px) {
+    
+    .covenantText {
+        margin-bottom: 50px;
+    }
+}
+
+
+
+/*Give buttons box shadow  box-shadow: 5px 5px 5px #888;*/

@@ -1,19 +1,28 @@
-
+/*
 body {
 	-webkit-perspective: 1000px;
     
-}
+} */
 
 img {
+	transition: -webkit-transform 1s ease-in-out;
+}
+
+.styleheading {
 	transition: -webkit-transform 1s ease-in-out;
 }
 
 
 
 
-img:hover {
+.ani:hover img {
 	
-  -webkit-transform: scale(1.1); 
+  -webkit-transform: scale(1.28); 
+}
+
+.ani:hover .styleheading {
+	
+  -webkit-transform: scale(1.28); 
 }
 
 
@@ -28,6 +37,6 @@ img:hover {
 }
 
 
-.styleheading:hover {
+.ani:hover .styleheading {
     color: purple;
 }
