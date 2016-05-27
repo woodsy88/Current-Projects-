@@ -1,0 +1,149 @@
+/*BANNER*/
+
+.banner {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+       
+}
+
+.banner {
+  height: 850px;
+  background: linear-gradient(#424242, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/banner.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+
+/*ABOUT ME*/
+
+.aboutMe {
+    
+        display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*FONT STYLE*/
+
+.topheaderOne {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+}
+
+.topheaderTwo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+}
+
+.topheaderText {
+    font-size: 15px;
+}
+
+.headerThree {}
+
+.bodyFont {}
+
+.sectionHeader {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight:800;
+    text-transform: uppercase;
+}
+
+/*EXPERIENCE STYLES*/
+
+.companyName {
+    text-align: center
+        font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.dateWorked {
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+.role {
+    font-size: 18px;
+}
+
+
+.jobsrow {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/*SKILLS STYLES*/
+
+.skillsIcons {
+    margin-top: 45px
+}
+
+.skillHeader {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase; 
+    font-size: 14px;
+    text-align: center;
+}
+
+.skillIcon {
+    height: 45px;
+    text-align: center;
+}
+
+.skillscol {
+    text-align: center;
+}
+
+.codeIcon {
+    font-size: 40px !important;
+    
+}
+
+
+/*Projects STYLES*/
+
+.projectsHeader {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+.projectsOverview {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+.projectsText {}
+
+
+
+.centerButton {
+    text-align: center;
+}
+/*Education STYLES*/

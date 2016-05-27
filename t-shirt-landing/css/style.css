@@ -1,0 +1,124 @@
+
+.banner {
+    display: flex;
+        justify-content: center;
+    text-align: center;
+align-items: center;
+    height: 500px;
+    
+}
+
+
+.aboutUs {
+    max-width: 550px;
+    text-align: center;
+}
+
+.aboutUsCenter {
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.rowSpacing {
+    margin-top: 40px;
+}
+
+
+.prelist {
+    text-align: center;
+    
+}
+
+.prelistInner {
+   
+    padding: 5%;
+}
+
+
+.
+
+
+.secondheader {
+    text-align: center;
+}
+
+
+
+/*How it Works Seciotn*/
+
+.Steps {
+    text-align: center;
+}
+
+
+/*Text Styling*/
+
+    /*Banner*/
+.mainBannerHeader{
+    margin-bottom: 40px;
+}
+
+
+    /*headers*/
+
+.headerOne {
+     font: 700 9px/14px Tahoma, sans-serif;
+	font-size: 65px;
+    color: white;
+     text-transform: uppercase;
+}
+
+
+
+.headerTwo {
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+     text-transform: uppercase;
+     color: white;
+}
+
+
+.HeaderThree {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+.headerFour{
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 25px;
+    
+    
+}
+
+.bodyFont{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+   
+} 
+
+.aboutText {
+      font-family: 'Open Sans', sans-serif;
+     color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 450px) {
+    .mainBannerHeader {
+        font-size: 50px;
+        
+    }
+}
