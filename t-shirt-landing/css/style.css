@@ -8,17 +8,28 @@ align-items: center;
     
 }
 
+.banner {
+     background: linear-gradient(#0E1717, transparent 40%),
+              url('../img/placeholder.jpg') no-repeat center;
+  background-size: cover;
+}
+
 
 .aboutUs {
-    max-width: 550px;
+    
     text-align: center;
 }
 
 .aboutUsCenter {
-    display: flex;
-    justify-content: center;
+        display: flex;
+     justify-content: center;
+   flex-direction: column;
    
     
+}
+
+.aboutusspacing {
+    margin-bottom: 40px;
 }
 
 .rowSpacing {
@@ -87,6 +98,7 @@ align-items: center;
     text-align: center;
     font-size: 40px;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 
@@ -112,6 +124,62 @@ align-items: center;
     font-weight: 300;
 }
 
+.LabelText {
+    font-family: 'Open Sans', sans-serif;
+     color: orange;
+    font-size: 20px !important;
+    font-weight: 300 !important;
+    text-align: center !important;
+    
+}
+
+
+#mc_embed_signup {
+    text-align: center !important;
+}
+
+input.button {
+    background: #285168 !important;
+    display: inline !important;
+    text-align: center !important;
+    width: 250px !important;
+}
+
+/*
+
+.LabelText {
+    font-size: 30px !important;
+    color: white;
+}
+
+#mc_embed_signup .signUpButton {
+    color: red !important;
+}
+
+.buttonTio {
+    text-align: center !important;
+}
+
+.formcenter {
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+#mc_embed_signup div.mc-field-group {
+    text-align: center !important;
+}
+
+.centertest {
+    text-align: center !important;
+}
+
+input.button {
+   background: blue !important;
+}
+
+*/
 
 /*MEDIA QUERIES*/
 
