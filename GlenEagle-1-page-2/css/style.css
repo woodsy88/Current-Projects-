@@ -1,22 +1,25 @@
 
-/*NAV BAR*/
+/*NAV BAR=========================================*/
 
 .navStyle {
    background: #4a90e2;
  
 }
 
+
+
 .navsocial {
-    color: white !important;
-    font-size: 25px !important;
+    color: #9AB4CB;
+    font-size: 35px !important;
+    
     
 }
 
 
-/*BANNER*/
+/*BANNER=========================================*/
 
 .banner {
-    height: 450px;
+    height: 600px;
     display: flex;
     justify-content: center;
 
@@ -39,6 +42,14 @@
     
 }
 
+.bannerlogo {
+    width: 500px;
+}
+
+.bannerquotebutton {
+    margin-top: 25px;
+}
+
 
 .quotecenter {
     display: flex;
@@ -55,7 +66,21 @@
     text-align: center;
 }
 
-/*SERVICES SECTION*/
+.bannerbutton2 {
+    margin-top: 30px;
+}
+
+.blueeagle {
+    
+    
+}
+
+.centheadsub {
+    display: flex;
+    flex-direction: row;
+}
+
+/*SERVICES SECTION=========================================*/
 
 .services {
     text-align: center
@@ -70,10 +95,14 @@
 }
 
 .moreservices {
-    box-shadow: 0 3px 0 #23812f;
+    box-shadow: 0 3px 0 #265072;
     text-shadow: 0 1px 1px rgba(0,0,0,.3);
-    margin-top: 20px
+    margin-top: 20px;
+    background: #396A92;
+    color: white;
 }
+
+
 
 .arrow {
     margin-left: 7px;
@@ -91,32 +120,96 @@
     
 }
 
-/*Individual SECTION*/
 
-.is {
-    text-align: center;
+/*Residential SECTION=========================================*/
+
+.residentialRows {
+    margin-bottom: 40px;
+}
+
+
+.commercialrow {
+   margin-top: 100px;
+}
+
+/*Individual SECTION =========================================*/
+
+.indvFont {
+    
     color: white;
 }
 
 
 
 .indser {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    
 }
 
 .check {
-    margin-right: 6px;
+    margin-right: 15px;
     font-size: 25px !important;
+    color: ;
 }
 
-.bannersizeindi {
+.invService {
     
-    background: #556270;
-    margin-top:100px; 
+        font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+   
 }
 
 
-/*FONT STYLES*/
+.invDescription {
+    font-weight: 300;
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+   
+}
+
+.indilistrow {
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+
+
+
+
+/*Individual Services=========================================*/
+
+
+.contactblue {
+    background: url('../img/contact10.png') no-repeat center;
+  background-size: cover;
+    margin-top: 120px;
+    
+}
+
+/*Contact Section=========================================*/
+
+
+.ContactSection {
+    
+padding-bottom: 3.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.contactInfo {
+    text-align: center;
+   
+  
+    padding-top: 30px;
+     padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+/*FONT STYLES =========================================*/
 
 
 .titleHeader {
@@ -124,16 +217,41 @@
     font-size: 40px;
     text-transform: uppercase;
     font-weight:800;
+    
 }
+
+
+.subheader{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.25;
+}
+
 
 .sectionheader {
     
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight:800;
+    color: #222;
     text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 35px;
+   
+}
+
+.sectionheaderwhite {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight:800;
+    color: white;
+    text-align: center;
+      margin-bottom: 35px;
    
 }
 
@@ -141,57 +259,187 @@
     
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
+    color: #222;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .headerTwo {
-     font-family: 'Source Sans Pro', sans-serif;
+     font-family: 'Open Sans', sans-serif;
     font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 300;
+    color: #222;
+    text-transform: capitalize;
+    font-weight: 600;
 }
 
 .bodyfont {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
     font-size: 19px;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    
 }
 
-.listFont {
-     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+.whitefont {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 19px;
     font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    
 }
 
 
 
+.phoneNumber {
+       font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+   color: white;
+}
+
+.phonestyle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+    
+}
+
+.emailContact {
+    font-size: 20px;
+   color: white;
+}
+
+.indserviceheader {
+     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight:800;
+    color: #222;
+    text-align: center;
+      margin-bottom: 50px;
+} 
+
+.quoteName {
+    font-weight: 300;
+}
 
 
-/*NAV SECTION*/
+.modaltitlefont {
+    
+     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    margin-top: 25px;
+}
+
+.modallabel {
+   font-family: 'Open Sans', sans-serif; 
+     font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #444;
+    
+}
+
+.formlogo {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.topofmodal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.coaching {
+   margin-top: 30px;
+}
+
+.projectmanagement{
+   margin-top: 50px;
+}
+/*ICONS=========================================*/
+
+.headerIcons {
+    margin-right: 12px;
+    color: #222;
+}
+
+
+/*NAV SECTION=========================================*/
 
 .navStyle {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 800;
-    color: white !important;
     
 }
 
 .navText {
-    color: white !important; 
+    color: #444 !important; 
+    font-weight: 600;
+    font-size: 12px !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-left:8px !important;
+     padding-right:8px !important;
+}
+
+.nav-link:hover {
+  
+  color: orange !important;
+    
 }
 
 .quoteButton {
-    margin-top: 8px;
+   
     margin-left: 5px;
+
 }
 
-.navbar-inverse {}
+.topeagle{
+    width: 200px;
+    
+}
+
+.active {
+    background: #396A92 !important;
+    color: white !important;
+    border-bottom: red 1px;
+    
+}
+
+.quotealink {
+   padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 10px;
+}
+
+/*ABOUT SECTION=========================================*/
+
+.centeroffset {
+     max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
 
 
-/*TESTIMONIALS SECTION*/
+/*TESTIMONIALS SECTION=========================================*/
 
 .testi {
     
@@ -207,7 +455,7 @@
 }
 
 
-/*BANNERS*/
+/*BANNERS=========================================*/
 .bannersize {
     height:300px;
     background: #556270;
@@ -218,20 +466,20 @@
 }
 
 .banner1 {
-    background: url('../img/residential.jpg') no-repeat center;
+    background: url('../img/basementblue2.jpg') no-repeat center;
   background-size: cover;
 }
 
 .banner2 {
     
-    background: url('../img/residential.jpg') no-repeat center;
+    background: url('../img/kitchenBlue.jpg') no-repeat center;
   background-size: cover;
 }
 
 
 .banner3 {
     
-    background: url('../img/residential.jpg') no-repeat center;
+    background: url('../img/bluetest4.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -241,26 +489,100 @@
   background-size: cover;
 }
 
-
-
-/*SOCIAL SECTION*/
-
-.socialiconitem {
-    font-size: 50px;
-    color: #4a90e2;
+.banner5inv {
     
 }
 
-.social {
-    height: 200px;
-    background: red
+
+
+/*SOCIAL SECTION=========================================*/
+
+.socialiconitem {
+    font-size: 50px;
+    color: white;
+    margin-right: 10px;
+    
+}
+
+.footer {
+   height: 75px;
+    background: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.socialheader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footeraddress {
+     font-family: 'Open Sans', sans-serif;
+    color: #FDFDFD;
+     font-size: 15px;
 }
 
 
+/*Residential Page=========================================*/
+
+.cm-ts-cta {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  border: 2px solid #396A92;
+  border-radius: 3px;
+  color: #396A92;
+  padding: 10px;
+text-align: center;
+  transition: all 0.2s linear;
+}
+
+.cm-ts-cta:hover {
+  background-color: #396A92;
+  color: #fff;
+    text-decoration: none;
+}
+
+.buttonmargin {
+    margin-top: 30px;
+}
+
+.wide {
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  border: 2px solid #396A92;
+  border-radius: 3px;
+  color: #396A92;
+  padding: 10px;
+text-align: center;
+  transition: all 0.2s linear;
+}
+
+.wide:hover {
+  background-color: #396A92;
+  color: #fff;
+    text-decoration: none;
+}
 
 
-
-/*Residential Page*/
+/*Residential Page=========================================*/
 
 .sectioncenter {
     text-align: center;
@@ -268,3 +590,108 @@
 }
 
 
+/*MODAL Styles=========================================*/
+
+.formlogo {
+    width: 500px;
+    
+}
+
+
+
+#imagelightbox
+{
+    position: fixed;
+    
+ 
+   
+}
+
+
+
+/*Media Queries=========================================*/
+
+
+@media (max-width: 1200px) {
+    
+    .navText {
+        font-size: 12px !important;
+     
+    }
+}
+
+@media (max-width: 1200px) {
+    .topeagle {
+        display: none !important;
+    }
+    
+}
+
+@media (max-width: 1000px) and (min-width: 768px){
+    
+    .navsocial {
+      
+       display: none !important;
+    }
+    
+    .quotealink {
+      
+       padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    
+    
+    .services {
+        margin-bottom: 40px;
+    }
+    
+}
+
+@media (max-width: 900px){
+    
+    .quote {
+        padding-left: 4%;
+        padding-right: 4%;
+        
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    
+    
+    .indilistrow {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .titleHeader {
+        font-size: 25px;
+    }
+    
+    .subheader {
+        font-size: 18px;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    .blueeagle {
+        max-width: 400px;
+    }
+    
+    .footeraddress {
+        font-size: 12px;
+    }
+    
+    
+    
+   
+}

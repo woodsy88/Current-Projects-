@@ -1,0 +1,130 @@
+/*JUMBOTRON*/
+
+#jumbo {
+    background: #3f5263;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    background: url('../img/banner.jpg') no-repeat center;
+  background-size: cover;
+
+}
+
+.logo {
+    width: 55px;
+    display: inline;
+}
+
+
+/*FONT-STYLES*/
+
+
+.bannerTitle {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+     text-shadow: 1px 1px #424242;
+   
+}
+
+.subHeader {
+    font-family: 'raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+    
+    
+}
+
+
+.formHeader {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+   
+    
+}
+
+.formButton {
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px !important;
+    width: 100%;
+    margin-top: 10px;
+   
+
+}
+
+.formrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   
+}
+
+.disclaimer {
+    text-align: center;
+     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color:  #444;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+/*Media Queries*/
+
+
+@media (max-width: 680px) {
+    
+    .subHeader {
+       font-size: 18px;
+        
+    }
+    
+    .formButton {
+        width: 75%;
+    }
+    
+    
+}
+
+
+@media (max-width: 400px) {
+    
+    .subHeader {
+       font-size: 15px;
+        
+    }
+    
+    .formButton {
+        padding-bottom: 40px;
+    }
+    
+    
+    .bannerTitle {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .logo {
+        display: none;
+    }
+    
+    #jumbo {
+        height: 140px;
+    }
+    
+}

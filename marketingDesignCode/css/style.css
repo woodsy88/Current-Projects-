@@ -1,0 +1,75 @@
+/*JUMBOTRON*/
+
+#jumbo {
+    background: #3f5263;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+/*FONT-STYLES*/
+
+
+.bannerTitle {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+
+.subHeader {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+
+
+.headerOne {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+.headerTwo {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.6px;
+}
+
+
+
+
+.bodyFont {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+
+/*ROW SPACING*/
+
+.articleRowOne {
+    margin-top: 50px;
+}
