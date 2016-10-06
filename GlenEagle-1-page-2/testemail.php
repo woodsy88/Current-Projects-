@@ -19,7 +19,7 @@ if( isset($_POST) ){
 	$message = $_POST['message'];
 	$visit = $_POST['visit'];
 	
-	//validate form data
+	//validate form datax
 	
 	//validate name is not empty
 	if(empty($name)){

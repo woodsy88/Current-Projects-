@@ -53,7 +53,7 @@ if( isset($_POST) ){
 	
 	//send email if all is ok
 	if($formok){
-		$headers = "From: steve@gleneaglesconstruction.com" . "\r\n";
+		$headers = "From: andrew" . "\r\n";
 		$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		
 		$emailbody = "<p>You have recieved a new message from the request quote form on your website.</p>
@@ -62,7 +62,7 @@ if( isset($_POST) ){
 					  <p><strong>Telephone: </strong> {$province} </p>
 					  <p>This message was sent from the IP Address: {$ipaddress} on {$date} at {$time}</p>";
 		
-		mail("andrew@crowdmatrix.co","New Enquiry",$emailbody,$headers);
+		mail("andrewwoods88@gmail.com","New Enquiry",$emailbody,$headers);
 		
 	}
 	

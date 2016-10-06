@@ -1,7 +1,7 @@
 /*BANNER*/
 
 .banner {
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,11 +11,12 @@
 }
 
 .banner {
-  height: 850px;
+
+     /*
   background: linear-gradient(#424242, transparent 90%),
               linear-gradient(0deg, #fff, transparent),
               #ffa949 url('../img/banner.jpg') no-repeat center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 
@@ -24,38 +25,55 @@
 
 .aboutMe {
     
-        display: flex;
-    justify-content: center;
+      
     text-align: center;
 }
 
 
-/*FONT STYLE*/
+
+
+/*================FONT STYLE======================*/
+
+
+/*OVERALL STYLES================================================*/
+
+
+.jobsrow {
+    margin-top: 50px;
+}
+
+
 
 .topheaderOne {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 60px;
-    color: white;
+    color: #222;
 }
 
 .topheaderTwo {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    color: white;
+    color: #444;
 }
 
 .topheaderText {
-    font-size: 15px;
+    margin: 0 auto;
+    width: 800px;
 }
 
-.headerThree {}
 
-.bodyFont {}
+.bodyFont {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: #444;
+    font-size: 16px;
+}
 
 .sectionHeader {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight:800;
@@ -67,12 +85,78 @@ li {
     list-style: none;
 }
 
-/*EXPERIENCE STYLES*/
+/*================================================*/
+
+/*Project STYLES================================================*/
+
+
+.projectsHeader {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.projectsOverview {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.projectsText {
+    
+    
+} 
+
+
+.centerButton {
+    text-align: center;
+}
+
+
+
+
+/*================================================*/
+
+/*Education STYLES================================================*/
+.educationDate {
+    font-size:15px;
+    color: #444;  
+    font-weight: 300;
+    
+}
+
+.school {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: #444;
+    font-size: 25px;
+}
+
+
+.program {
+   font-family: 'Montserrat';
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: #444;
+    font-size: 20px; 
+}
+
+
+/*================================================*/
+
+/*EXPERIENCE STYLES================================================*/
 
 .companyName {
-    text-align: center
-        font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .dateWorked {
@@ -81,21 +165,39 @@ li {
     font-weight: 300;
     text-transform: uppercase;
     font-style: italic;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
 .role {
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 
-.jobsrow {
-    margin-bottom: 50px;
-    margin-top: 50px;
+.AccordionHeader {
+     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
-/*SKILLS STYLES*/
+
+
+
+
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none !important;
+}
+
+
+/*================================================*/
+
+
+
+/*==================SKILLS STYLE=====================*/
 
 .skillsIcons {
     margin-top: 45px
@@ -124,31 +226,5 @@ li {
 }
 
 
-/*Projects STYLES*/
+/*================================================*/
 
-.projectsHeader {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 20px;
-    
-}
-
-.projectsOverview {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 20px;
-}
-
-
-.projectsText {}
-
-
-
-.centerButton {
-    text-align: center;
-}
-/*Education STYLES*/

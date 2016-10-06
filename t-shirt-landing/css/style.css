@@ -21,10 +21,8 @@ align-items: center;
 }
 
 .aboutUsCenter {
-        display: flex;
-     justify-content: center;
-   flex-direction: column;
-   
+      margin: 0 auto;
+    width: 800px;
     
 }
 
@@ -33,7 +31,8 @@ align-items: center;
 }
 
 .rowSpacing {
-    margin-top: 40px;
+    margin-top: 60px;
+   
 }
 
 
@@ -85,8 +84,8 @@ align-items: center;
 
 .headerTwo {
      font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-     text-transform: uppercase;
+    font-weight: 600;
+     text-transform: capitalize;
      color: white;
 }
 
@@ -114,7 +113,9 @@ align-items: center;
 .bodyFont{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-   
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: #444;
 } 
 
 .aboutText {
@@ -126,9 +127,9 @@ align-items: center;
 
 .LabelText {
     font-family: 'Open Sans', sans-serif;
-     color: orange;
+     color: white;
     font-size: 20px !important;
-    font-weight: 300 !important;
+    font-weight: 800 !important;
     text-align: center !important;
     
 }
@@ -143,6 +144,18 @@ input.button {
     display: inline !important;
     text-align: center !important;
     width: 250px !important;
+}
+
+
+.footer {
+    height: 100px;
+    background: #424242;
+}
+
+.footerText {
+    text-align: center;
+    vertical-align: center;
+    color: white;
 }
 
 /*

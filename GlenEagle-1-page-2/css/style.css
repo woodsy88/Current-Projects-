@@ -128,9 +128,7 @@
 }
 
 
-.commercialrow {
-   margin-top: 100px;
-}
+
 
 /*Individual SECTION =========================================*/
 
@@ -139,7 +137,7 @@
     color: white;
 }
 
-
+.pmservices {text-align: center;}
 
 .indser {
     padding-bottom: 25px;
@@ -184,9 +182,17 @@
 
 
 .contactblue {
-    background: url('../img/contact10.png') no-repeat center;
+    background: url('../img/contactroom2.jpg') no-repeat center;
   background-size: cover;
     margin-top: 120px;
+    
+}
+
+
+.flexcenter {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
     
 }
 
@@ -510,6 +516,7 @@ padding-bottom: 3.5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     
     
 }
@@ -527,6 +534,14 @@ padding-bottom: 3.5em;
     color: #FDFDFD;
      font-size: 15px;
 }
+
+
+.featuredHeights {
+    color: white;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.heightsLink {}
 
 
 /*Residential Page=========================================*/

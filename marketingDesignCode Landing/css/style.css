@@ -1,0 +1,84 @@
+/*JUMBOTRON*/
+
+body {
+    background: #363636;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+    flex-direction: column;
+    
+}
+ 
+.jumbo {
+    
+    margin-top: 200px;
+}
+
+
+.marketingText {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+
+.designText {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+.codeText {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+/*FONT-STYLES*/
+
+.formText {
+    color: white;
+}
+
+.button {
+    background: #3299bb !important;
+}
+
+.button:hover {
+    background: orange !important;
+}
+
+#mc_embed_signup {
+    margin-top: 30px;
+}
+
+
+.bannerTitle {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+
+.subHeader {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+
+.bodyFont {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+

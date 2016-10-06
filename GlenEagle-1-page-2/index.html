@@ -11,9 +11,13 @@
 <title>Gleneagles Construction</title>
     
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/colorbox.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
@@ -82,9 +86,9 @@
     <div class="bannerSpot">
     
     <div class="centheadsub"><img src="img/whitelogooriginal.png" class="blueeagle"></div>
-        <!--<img src="img/whitelogo-eagle.png" class="bannerlogo">-->
+       
         <h2 class="subheader">Providing High Quality Residential and Commercial Construction Services to the Greater Toronto Area</h2>
-   <!-- <p class="aboutText whitefont">We are a renovation company operating on the west side of the greater Toronto area specializing in basements and commercial interiors. We provide high quality workmanship and complete your project on schedule. The majority of our work comes from referrals, and as such, customer satisfaction is our priority.</p>-->
+ 
    
         
         <div class="btn-group bannerbutton2" role="group">
@@ -92,8 +96,7 @@
 					<a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#quote">Get a Quote</a>
 				</div>
         
-     <!-- <div class="btn btn-primary btn-lg bannerquotebutton" data-toggle="modal" data-target="#quote">Get a Quote</div>-->
-        
+     
         
         </div>
     
@@ -103,7 +106,7 @@
     
     
 <!-- Content Start -->
-<div class="container" id="about">
+<div class="container" id="about" data-offset="100">
     <div class="row">
     
     <div class="centeroffset mobilepadding">
@@ -173,7 +176,7 @@
     
         
     </div>
-    <div id="resident"></div>
+    <div id="resident" data-offset="100"></div>
     <div class="container" >
        <div  class="row sectioncenter">
            
@@ -234,7 +237,7 @@
     
   <!--COMMERCIAL SERVICES-->  
     <div class="container">
-        <div class="row sectioncenter commercialrow" id="commercial">
+        <div class="row sectioncenter commercialrow" id="commercial" data-offset="100">
             <h2 class="sectionheader"><i class="fa fa-building headerIcons"></i>Commercial</h2>
             
             
@@ -281,37 +284,39 @@
     
     <div class="row bannersize banner3 quotecenter">
     
-    <p class="quote whitefont">"We hired Gleneagles Construction to complete our basement. My wife was impressed at how clean the basement was every day so we could do laundry. They did an excellent job" <br>- <span class="quoteName">Jamie from Mississauga</span></p>
+    <p class="quote whitefont">"Gleneagles Construction did a quick and high quality job putting in new drywall in our office and finished it off with a professional paint job!" <br>- <span class="quoteName">Mike from Mississauga</span></p>
         
     </div>
     
     
     <!--PM SERVICES-->
     <div class="container">
-     <div class="row" id="pm">
+     <div class="row" id="pm" data-offset="100">
          
+          <h2 class="sectionheader"><i class="fa fa-clipboard headerIcons"></i>PM & Coaching</h2>
          
-         
-        <div class="col-sm-6">
-            <h2 class="sectionheader"><i class="fa fa-clipboard headerIcons"></i>PM & Coaching</h2>
+        <div class="col-sm-6 pmservices">
+           
             
-            <div class="projectmanagement">
+            
        
             <h2 class="headerTwo">Project Management</h2>
             <p class="bodyfont">We offer project management services such as overseeing work performed by other contractors and acting as your representative. Budgeting, scheduling, coordinating trades and running site meetings are all part of our project management services.</p>
-                </div>
-            <div class="coaching">
+                
+          
+   
+        
+        </div>
+         <div class="col-sm-6 pmservices">
+         
                       <h2 class="headerTwo">Coaching</h2>
             <p class="bodyfont">We are also available for coaching / instruction for individual homeowners who want the savings of "doing it themselves" but want an expert on site to make sure it's done right.
 </p>
                 </div>
-   
-        
-        </div>
-        
+     <!--   
         <div class="col-sm-6">
             
-             <h2 class="sectionheader">Individual Services</h2>
+             <h2 class="sectionheader" id="indser">Individual Services</h2>
             
                 <div class="indilistrow">
             
@@ -347,10 +352,52 @@
             
         
        </div>
-           
+        -->   
          
          
     </div>
+        
+        <div class="row flexcenter">
+        
+        <div class="col-md-6 offset-md-3 ">
+            
+             <h2 class="sectionheader" id="indser" data-offset="100">Individual Services</h2>
+            
+                <div class="indilistrow">
+            
+                <i class="fa fa-check check"></i> <p class="listFont"><span class="invService">Wall Construction</span> - <span class="invDescription">framing, insulation, vapour barrier and drywall</span>
+</p>
+   </div>          
+            <div class="indilistrow">
+           <i class="fa fa-check check"></i> <p class="listFont"><span class="invService">Ceilings</span> - <span class="invDescription">drywall and suspended acoustic (t-bar)</span>
+</p>
+   </div>          <div class="indilistrow">
+            <i class="fa fa-check check"></i> <p class="listFont"><span class="invService">Millwork</span> - <span class="invDescription">custom cabinets, fireplaces, wall panelling and coffered ceiling systems</span>
+</p>  
+    </div>         <div class="indilistrow">
+            <i class="fa fa-check check"></i><p class="listFont"><span class="invService">Flooring</span> - <span class="invDescription">hardwood, laminate and ceramic</span>
+</p>
+   </div>  
+                 <div class="indilistrow">
+           <i class="fa fa-check check"></i><p class="listFont"><span class="invService">Finish Carpentry</span> - <span class="invDescription">doors and frames, casings, baseboard, cover and specialty trims.</span>
+</p>
+  </div>        
+            
+           
+            <div class="indilistrow">
+            <i class="fa fa-check check"></i><p class="listFont"><span class="invService">Sub-trades</span> - <span class="invDescription">electrical, plumbing and mechanical</span>
+</p>
+  </div>     
+       <div class="indilistrow">
+            <i class="fa fa-check check"></i><p class="listFont"><span class="invService">Painting</span></p>  
+            
+            </div> 
+            
+            
+            
+        
+       </div>
+        </div>
         
        <div class="row buttonmargin">
         <a class="wide" data-toggle="modal" data-target="#quote">Get a Quote</a>
@@ -424,10 +471,10 @@
  <div class="col-md-6 contactInfo">
   
     <h2 class="sectionheaderwhite">Contact</h2> 
-     <p class="emailContact"><span class="phoneNumber">Phone:</span> <span class="phonestyle">555-5555</span></p>
+     <p class="emailContact"><span class="phoneNumber">Phone:</span> <span class="phonestyle">905-874-9522</span></p>
   
      
-     <p class="emailContact"><span class="phoneNumber">Email:</span> <span class="phonestyle">info@gleneagles.com</span></p>
+     <p class="emailContact"><span class="phoneNumber">Email:</span> <span class="phonestyle">steve@gleneaglesconstruction.com</span></p>
    
      <p class="emailContact"><span class="phoneNumber">Address:</span> <span class="phonestyle">41 Staveley Cres
 Brampton, ON</span></p>
@@ -480,6 +527,9 @@ Brampton, ON</span></p>
       
      
     <p class="footeraddress">Gleneagles Construction Ltd.</p>
+      
+      
+      <p class="featuredHeights">Designed by <a class="heightsLink">featuredHEIGHTS</a></p>
     
     
     </div> <!--END SOCIAL--> 
@@ -594,7 +644,7 @@ Brampton, ON</span></p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     
-    <script src="js/bootstrap.min.js"></script>
+  
     
     
     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
