@@ -18,8 +18,10 @@
 <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
  <!--FONTS-->
     
-      <!-- load angular via CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script> 
+      
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+    <script src="myscript.js"></script>
 
 	<title>Andrews Portfolio Page</title>
 </head>
@@ -39,12 +41,12 @@
         <a class="navbar-brand text-muted" href="#">aWoods</a>
         <div class="collapse navbar-collapse">
 
-          <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home">About</a></li>
-            <li ><a href="#home">Experience</a></li>
-           <li><a href="#services">Skills</a></li>
+          <ul class="nav navbar-nav navbar">
+              
+            <li ><a href="#experience">Experience</a></li>
+           <li><a href="#skillsSection">Skills</a></li>
                <li><a class="page-scroll" href="#projectsSection">Projects</a></li>
-              <li><a href="#about">Education</a></li>
+              <li><a href="#educationSection">Education</a></li>
                <li><a href="#contact">Contact</a></li>
           </ul>
 
@@ -64,7 +66,7 @@
         
         
         
-       <p class="topheaderText bodyFont">I'm a marketer, front end web developer, and graphic designer based in Toronto, Canada. I have worked at 3 tech start ups and offer freelance digital marketing and web development services.</p>
+       <p class="topheaderText ">I'm a marketer, front end web developer, and graphic designer based in Toronto, Canada. I have worked at 3 tech start ups and offer freelance digital marketing and web development services.</p>
     
     </div>
 <!-- End banner -->
@@ -73,14 +75,14 @@
 <div class="container">
 
  
-    
+    <div class="stopgap" id="experience"></div>
    
 
   <!-- End Aboutme -->  
     
    <!-- Work Experience -->    
             <!-- ROW 1 -->
-    <div class="row jobsrow">
+    <div class="row jobsrow" >
     
         
         <h2 class="sectionHeader">EXPERIENCE</h2>
@@ -91,47 +93,80 @@
   
 <div class="col-sm-6 crowdMatrixXP jobs">    
     
-    <h2 ><span class="companyName">Crowdmatrix</span><span class="role"> Marketing Manager</span> <span class="dateWorked"> 2015 - Present</span></h2>
+    <h2 ><span class="companyName">Crowdmatrix</span><span class="role"> Marketing Manager</span></h2>
+    <p><span class="dateWorked"> 2015 - Present</span></p>
         
-      
-<div id="accordion" role="tablist" aria-multiselectable="true">
            
-             <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title">
-        <a class="collapsed AccordionHeader" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne"><i class="fa fa-plus-circle" aria-hidden="true"></i>
-          Company Overview 
-        </a>
-      </h4>
+
+ <!--OVERVIEW-->       
+ <h2 class="AccordionHeader"> <a href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i>Company Overview </a></h2>
+              
+                      <p class="bodyFont">Crowdmatrix is a financial tech startup that delivers new opportunities to invest in growing Canadian companies by taking private investing online to make it simple, efficient and accessible.</p>
+                
+     <!--RESPONSIBILITES--> 
+      <h2 class="AccordionHeader"><i class="fa fa-plus-circle" aria-hidden="true"></i>Responsibilites</h2>
+                <div>
+                    
+                    
+                      <p class="bodyFont">I was responsible for developing our positioning, messaging and story to communicate our value to potential customers, developing and managing the marketing side of our website, building and engaging our community, creating valuable content for our resource section, managing our social media accounts, planning  events for our investor community and creating pitch decks/presentations.</p>   
+                    
+                    
+                           <div id="accordion2">
+                               <h3 class="AccordionSubHeader"><i class="fa fa-plus-circle" aria-hidden="true"></i>Web Design & Development</h3>
+                     
+                        
+                        
+                        <div class="holder">
+                            <ul>
+                            <li>Ootion 1</li>
+                            <li>Ootion 1</li>
+                            <li>Ootion 1</li>
+                            </ul>
+                        
+                       
+                    </div>
+                  
+    <h3>Marketing</h3>
+                     
+                        
+                        
+                        <div class="holder">
+                             <p>Web Dev</p>
+                        <li>Designed and developed the public facing pages of the Crowdmatrix website (home page, about, blog, community section etc.)</li>
+                             <p>Marketing</p>
+                         <li>Designed and developed the public facing pages of the Crowdmatrix website (home page, about, blog, community section etc.)</li>
+                        
+                       
+                    </div>
+                  
+    
     </div>
-    <div id="collapseOne" class="panel-collapse collapse bodyFont" role="tabpanel" aria-labelledby="headingOne">
-  A next generation investment platform that facilitates capital investment between accredited investors and growing Canadian companies
-    </div>
-  </div>
-  
              
-       
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
-      <h4 class="panel-title">
-        <a class="collapsed AccordionHeader" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-plus-circle" aria-hidden="true"></i>
-          Responsibilities
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse bodyFont" role="tabpanel" aria-labelledby="headingTwo">
-  As the Marketing Manager I am responsible for finding accredited investors and growth comapnies and show them the value of the Crowdmatrix platform through a variety of marketing
-    </div>
-  </div>
-  
-</div>
+                    
+                    
+                </div>
+                    
+              
+                       
+                     
+          
+    
+      <!--ACOMPLISHMENTS--> 
+      <h2 class="AccordionHeader"><i class="fa fa-plus-circle" aria-hidden="true"></i>Accomplishments</h2>
+                <div>
+                      <p class="bodyFont">A next generation investment platform that facilitates capital investment between accredited investors and growing Canadian companies</p>
+                </div>
+
+
+    </div> 
         
     </div>
     
         
     <div class="col-sm-6 crowdMatrixXP jobs">    
     
-    <h2 ><span class="companyName">featuredHEIGHTS</span><span class="role"> FREELANCER</span> <span class="dateWorked"> 2014 - Present</span></h2>
+    <h2 ><span class="companyName">featured HEIGHTS</span><span class="role"> FREELANCER</span></h2>
+         <p><span class="dateWorked"> 2015 - Present</span></p>
         
       
 <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -181,8 +216,8 @@
   
 <div class="col-sm-6 crowdMatrixXP jobs">    
     
-    <h2 ><span class="companyName">Hackworks</span><span class="role"> Marketing & Engagement Specialist</span> <span class="dateWorked"> 2013 - 2015 Present</span></h2>
-        
+    <h2 ><span class="companyName">Hackworks</span><span class="role"> Marketing Specialist</span></h2>
+         <p><span class="dateWorked"> 2015 - Present</span></p>
       
 <div id="accordion" role="tablist" aria-multiselectable="true">
            
@@ -210,6 +245,56 @@
       </h4>
     </div>
     <div id="collapseSix" class="panel-collapse collapse bodyFont" role="tabpanel" aria-labelledby="headingSix">
+        
+        
+        
+ <div class="row">
+<h2 class="">Hackathons Organized</h2> 
+    <p class="bodyFont">Whilen working at Hackworks & XMG I was a main organizer on 3 yearly major hackathons.</p>
+    
+ <div class="col-md-4">
+    <div class="thumbnail">
+      <img src="img/code.png" alt="...">
+      <div class="caption">
+        <h3 class="projectsHeader">Candadian Open Data Experience</h3>
+          
+        <p><span class="bodyFont "> Torontonians formed teams and collaborated with local traffic analysts, government officials and data collectors to brainstorm new ideas, analyze data and build tools that kickstarted the development of real solutions.</span></p>
+          
+          <p class="centerButton"><a href="https://www.canadianopendataexperience.ca/" class="btn btn-default" role="button">Visit Site</a></p>
+      </div>
+    </div>
+  </div>
+    
+      <div class="col-md-4">
+    <div class="thumbnail">
+      <img src="img/gca.png" alt="...">
+      <div class="caption">
+        <h3 class="projectsHeader">Great Canadian Appathon</h3>
+          
+        <p><span class="bodyFont ">The Great Canadian Appathon (GCA) is a 48-hour national hackathon open to Canadian college and university students from coast-to-coast. Aspiring game developers and designers race against the clock to design the next hit mobile game. Since 2011 there has been 4 iterations of the GCA and over 1720 students in total participated to create 358 games.</span></p>
+          
+          
+          <p class="centerButton"><a href="http://www.greatcanadianappathon.com/" class="btn btn-default" role="button">Visit Site</a></p>
+      </div>
+    </div>
+  </div>
+    
+      <div class="col-md-4">
+    <div class="thumbnail">
+      <img src="img/trafficJam.png" alt="...">
+      <div class="caption">
+        <h3 class="projectsHeader">TrafficJam</h3>
+          
+        <p><span class="bodyFont ">Canadian Open Data Experience (CODE) is an annual nationwide hackathon in partnership with the Government of Canada that has had 2 versions so far. CODE challenges innovators across the country to build open data apps that improve Canadian lives. It set the record for largest hackathon in Canadian history 2 years in a row. To date CODE has had 2233 participants create over 230 open data apps.</span></p>
+          
+          
+          <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
+      </div>
+    </div>
+  </div>
+    
+</div>       
+        
   I planned and organized hackathon events, engaged and recruited participants, grew and managed the various communities and promoted and marketed the Hackorks brand and events.
     </div>
   </div>
@@ -221,8 +306,8 @@
         
     <div class="col-sm-6 crowdMatrixXP jobs">    
     
-    <h2 ><span class="companyName">XMG Studio</span><span class="role"> Marketing Associate</span> <span class="dateWorked"> 2012 - 2013</span></h2>
-        
+    <h2 ><span class="companyName">XMG Studio</span><span class="role"> Marketing Associate</span></h2>
+      <p><span class="dateWorked"> 2015 - Present</span></p>   
       
 <div id="accordion" role="tablist" aria-multiselectable="true">
            
@@ -264,48 +349,125 @@
 <!-- END OF JOBS SECTION --> 
     
 <!-- SKILLS SECTION -->
-   <section id="skillsSection"> 
+    
+    <div class="stopgap2" id="skillsSection"></div>
+
 
 
        <div class="row">
              <h2 class="sectionHeader">Skills</h2>
        <div class="col-md-4">
-           <h2>Marketing</h2>
+           <h2 class="skillsHeader">Marketing</h2>
            <p class="bodyFont">I learned front end development because i think websites are one of the most powerful marketing tools to communicate value and engage your customers a business has at its disposable</p>
-           <ul>
-           <li>Email Marketing</li>
+         
+           
+           <div class="row">
+           
+           <div class="col-sm-6"> 
+               
+               <ul class="skillfont">
+               <li><i class="fa fa-check check"></i>Email Marketing</li>
                <li><i class="fa fa-check check"></i>Community Building</li>
                <li><i class="fa fa-check check"></i>Social Media</li>
                <li><i class="fa fa-check check"></i>Event Planning</li>
-               <li><i class="fa fa-check check"></i>Website Copy</li>
+               </ul>
+               
+               </div>
+               
+               
+            <div class="col-sm-6">
+                <ul class="skillfont">
+                
+                <li><i class="fa fa-check check"></i>Website Copy</li>
                <li><i class="fa fa-check check"></i>Messaging</li>
                <li><i class="fa fa-check check"></i>Video Creation</li>
-           </ul>
+                </ul>
+                </div>
            
            </div>
            
+           
+           
+        
+           </div>
+           
                 <div class="col-md-4">
-           <h2>Front End Development</h2>
+           <h2 class="skillsHeader">Web Development</h2>
            <p class="bodyFont">I learned front end development because i think websites are one of the most powerful marketing tools to communicate value and engage your customers a business has at its disposable</p>
-           <ul>
-           <li><i class="fa fa-check check"></i>Javascript</li>
+                    
+                    <div class="row">
+                    <div class="col-sm-6">
+                        
+                        
+                        <ul class="skillfont">
+                         <li><i class="fa fa-check check"></i>Javascript</li>
+                 <li><i class="fa fa-check check"></i>JQuery</li>
+                <li><i class="fa fa-check check"></i>Angular</li>
                <li><i class="fa fa-check check"></i>HTML</li>
-               <li><i class="fa fa-check check"></i>CSS</li>
+                        
+                        </ul>
+                       
+                        
+                        </div>
+                        <div class="col-sm-6">
+                           <ul class="skillfont">
+                            
+                            <li><i class="fa fa-check check"></i>CSS</li>
+               <li><i class="fa fa-check check"></i>Wordpress Development</li>
                <li><i class="fa fa-check check"></i>SEO</li>
-           </ul>
+                            
+                            
+                            </ul>
+                        
+                        
+                        </div>
+                    </div>
+           
            
            </div>
            
                 <div class="col-md-4">
-           <h2>Design</h2>
+           <h2 class="skillsHeader">Graphic Design</h2>
            <p class="bodyFont">I learned front end development because i think websites are one of the most powerful marketing tools to communicate value and engage your customers a business has at its disposable</p>
            <ul>
-           <li>Photoshop</li>
+           
+               
+           </ul>
+           
+                    
+                      <div class="row">
+           
+           <div class="col-sm-6">
+               
+               <ul class="skillfont">
+               <li><i class="fa fa-check check"></i>Photoshop</li>
                <li><i class="fa fa-check check"></i>Illustrator</li>
                <li><i class="fa fa-check check"></i>Design Principals</li>
+                   
+                    </ul>
+                   
+                   </div>
+              
+               
+            
+                          
+                          
+                          <div class="col-sm-6">
+                
+                
+                 <ul  class="skillfont">
+                     <li><i class="fa fa-check check"></i>Typography</li>
                <li><i class="fa fa-check check"></i>Typography</li>
-           </ul>
+               <li><i class="fa fa-check check"></i>Typography</li>
+               <li><i class="fa fa-check check"></i>Typography</li>          
+                              </ul>
+                         
+                          
+                          </div>
            
+           </div>
+                    
+                    
            </div>
        
        
@@ -317,16 +479,24 @@
     
 
    
-<!-- END OF SKILLS SECTION --></section>
+<!-- END OF SKILLS SECTION -->
+    
+    
+    </div>
 
+     <div class="stopgap2" id="projectsSection"></div>
+    
 <!-- PROJECTS SECTION -->
-    <section id="projectsSection">
+<div class="projectsRow"> 
+    <div class="container">
 <div class="row">
-<h2 class="sectionHeader">Projects</h2>
+<h2 class="projectsSectionHeader ">Projects</h2>
+   <p class="projectsSubHeader">On the below projects I did all the web design & development, all the marketing copy, all the graphics, SEO and all the promotion.   
 
 <div class="row">
     
-    <h2>Front End</h2>
+
+   
  
     
   <div class="col-md-4">
@@ -335,8 +505,12 @@
       <div class="caption">
         <h3 class="projectsHeader">Featured Heights</h3>
           
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">Featured Heights is my markting freelance website</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
+        <p><span class="bodyFont">Featured Heights is my markting freelance website</span></p>
+          
+          
+          <div></div>
+         
+         
           
         <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
       </div>
@@ -349,8 +523,8 @@
       <div class="caption">
        <h3 class="projectsHeader">Distilled Beauty</h3>
           
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont "> Distilled Beauty is a site promoting new innovative beauty products</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
+        <p><span class="bodyFont "> Distilled Beauty is a site promoting new innovative beauty products</span></p>
+          
           
           <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
       </div>
@@ -363,8 +537,8 @@
       <div class="caption">
        <h3 class="projectsHeader">Crowdmatrix</h3>
           
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">I created all the marketing pages for the Crowdmatri website to drive new sign ups and geared the messaging to inform visitors of the value Crowdmatrix provides and the problem it solves</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
+        <p><span class="bodyFont ">I created all the marketing pages for the Crowdmatri website to drive new sign ups and geared the messaging to inform visitors of the value Crowdmatrix provides and the problem it solves</span></p>
+          
           
           <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
       </div>
@@ -379,8 +553,8 @@
       <div class="caption">
         <h3 class="projectsHeader">Founders vs. Funders</h3>
           
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">Founders vs. Funders is a reoccuring hockey game that brings together Toronto tech founders and funders to play a friendly pickup ice hockey game</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
+        <p><span class="bodyFont ">Founders vs. Funders is a reoccuring hockey game that brings together Toronto tech founders and funders to play a friendly pickup ice hockey game</span></p>
+          
           
           <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
       </div>
@@ -393,8 +567,8 @@
       <div class="caption">
         <h3 class="projectsHeader">Once Upon a Murder</h3>
           
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">Once Upon a Murder is a yearly mystery event where guests try to solve a murder mystery performed by live actors</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
+        <p><span class="bodyFont ">Once Upon a Murder is a yearly mystery event where guests try to solve a murder mystery performed by live actors</span></p>
+          
           
           <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
       </div>
@@ -407,8 +581,8 @@
       <div class="caption">
         <h3 class="projectsHeader">GlenEagle Construction</h3>
           
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">Glen Eagle Construction is a Toronto based contracting and renovation company </span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
+        <p><span class="bodyFont ">Glen Eagle Construction is a Toronto based contracting and renovation company </span></p>
+          
           
           <p class="centerButton"><a href="http://trafficjam.to/" class="btn btn-default" role="button">Visit Site</a></p>
       </div>
@@ -421,80 +595,37 @@
     
 
     
+
     
-<div class="row">
-<h2 class="">Hackathons Organized</h2> 
-    
- <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="img/code.png" alt="...">
-      <div class="caption">
-        <h3 class="projectsHeader">Candadian Open Data Experience</h3>
-          
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont "> Torontonians formed teams and collaborated with local traffic analysts, government officials and data collectors to brainstorm new ideas, analyze data and build tools that kickstarted the development of real solutions.</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
-          <p class="centerButton"><a href="https://www.canadianopendataexperience.ca/" class="btn btn-default" role="button">Visit Site</a></p>
-      </div>
+</div><!--END PROJECTS-->
     </div>
-  </div>
-    
-      <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="img/gca.png" alt="...">
-      <div class="caption">
-        <h3 class="projectsHeader">Great Canadian Appathon</h3>
-          
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">The Great Canadian Appathon (GCA) is a 48-hour national hackathon open to Canadian college and university students from coast-to-coast. Aspiring game developers and designers race against the clock to design the next hit mobile game. Since 2011 there has been 4 iterations of the GCA and over 1720 students in total participated to create 358 games.</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
-          
-          <p class="centerButton"><a href="http://www.greatcanadianappathon.com/" class="btn btn-default" role="button">Visit Site</a></p>
-      </div>
     </div>
-  </div>
-    
-      <div class="col-md-4">
-    <div class="thumbnail">
-      <img src="img/trafficJam.png" alt="...">
-      <div class="caption">
-        <h3 class="projectsHeader">TrafficJam</h3>
-          
-        <p><span class="projectsOverview">Overview</span><span class="bodyFont ">Canadian Open Data Experience (CODE) is an annual nationwide hackathon in partnership with the Government of Canada that has had 2 versions so far. CODE challenges innovators across the country to build open data apps that improve Canadian lives. It set the record for largest hackathon in Canadian history 2 years in a row. To date CODE has had 2233 participants create over 230 open data apps.</span></p>
-          <p><b class="projectsOverview">Role</b><span class="projectsText">Designer, Developer</span></p>
-          
-          <p class="centerButton"><a href="#" class="btn btn-default" role="button">Visit Site</a></p>
-      </div>
-    </div>
-  </div>
-    
-</div>
-    
-    
-</div><!--END PROJECTS--></section>
-    
-    
 <!-- EDUCATION SECTION -->
- <section id="educationSection">
+    
+      <div class="stopgap2" id="educationSection"></div>
+
 <div class="row">
     
     <h2     class="sectionHeader">Education</h2>
     
 <div class="col-sm-6">
     
+    
 <h2 class="school">Brainstation <span class="educationDate">2015</span>
     </h2>
-<h4 class="program">Web Development</h4>    
+<h4 class="program">Intermediate Web Development</h4>    
     
-<h2 class="school">Trent University <span class="educationDate">2015</span></h2>
+<h2 class="school">Trent University <span class="educationDate">2008-2012</span></h2>
 <h4 class="program">Bachelor of Business Administration(B.B.A)</h4>
     
     </div>
     
     <div class="col-md-6">
     
-    <h2 class="school">George Brown <span class="educationDate">2015</span></h2>
+    <h2 class="school">George Brown College <span class="educationDate">2012-2013</span></h2>
  <h4 class="program">Post Graduate in Advanced Design</h4>   
     
- <h2 class="school">Fleming College <span class="educationDate">2015</span></h2>      
+ <h2 class="school">Fleming College <span class="educationDate">2007-2008</span></h2>      
    <h4 class="program">General Arts</h4> 
     
     
@@ -512,13 +643,13 @@
  
     
 </div><!--END EDUCATION-->
-</section>   
+  
 
-<div class="row">
+<div class="row contactrow">
     <h2 class="sectionHeader">Contact</h2>
     
     <div class="col-md-6">
-    <p>email: andrewwoods88@gmail.com</p>
+    <p><i class="fa fa-envelope" aria-hidden="true"></i>andrewwoods88@gmail.com</p>
         <p>phone: 647-567-0072</p>
         
     
@@ -526,16 +657,15 @@
     
     
     <div class="col-md-6">
-    <h2>Looking for Freelance work?</h2>
-        <p>head over to featuredHeights.com</p>
     
     
-    </div>
     
     </div>
     
+    </div>
     
-</div>
+    
+
 
    
     
@@ -560,11 +690,11 @@
 <script src="js/app.js"></script>    
     
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+    
+       
 
-
+<script src="js/smoothscrolling.js"></script>    
 
 
     

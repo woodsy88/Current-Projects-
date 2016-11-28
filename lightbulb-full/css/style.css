@@ -79,6 +79,16 @@
     margin-top: 30px; 
 }
 
+
+.paraHeader {
+    
+    margin: 0 auto;
+    max-width: 700px;
+    padding-right: 5%;
+    padding-left: 5%;
+     
+}
+
 .blogtop {
     margin-top: 100px;
 }
@@ -173,13 +183,31 @@
 }
 
 
-.newsletter{  
-
+.trump {
+    text-align: center; 
 }
 
 .blogformText {
     font-size: 25px !important;
 }
+
+.blogHighlightedFont {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 25px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.blogHeader1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+}
+
 
 
 /*BUTTON STYLE===========================================*/

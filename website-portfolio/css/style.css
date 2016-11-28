@@ -1,11 +1,15 @@
 /*BANNER*/
 
 .banner {
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+    background: #3f5263;
+    border-bottom: 1px solid transparent; 
+
     
        
 }
@@ -18,6 +22,13 @@
               #ffa949 url('../img/banner.jpg') no-repeat center;
   background-size: cover; */
 }
+
+.banner {
+-webkit-box-shadow:0px 1px 1px #424242;
+ -moz-box-shadow:0px 1px 1px #424242;
+ box-shadow:0px 1px 1px #424242;
+  }
+
 
 
 
@@ -48,28 +59,35 @@
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 60px;
-    color: #222;
+    color: #fff;
 }
 
 .topheaderTwo {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
-    color: #444;
+    color: #fff;
+
 }
 
 .topheaderText {
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
 }
 
 
 .bodyFont {
-    font-family: 'Montserrat';
+    font-family: 'lato';
     line-height: 1.5;
     letter-spacing: 0.6px;
     color: #444;
     font-size: 16px;
+    font-weight: 300;
 }
 
 .sectionHeader {
@@ -80,11 +98,96 @@
     text-transform: uppercase;
 }
 
+.AccordionHeader {
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    color: #636363 !important;
+}
+
+.AccordionSubHeader {
+      font-weight: 300 !important;
+    font-size: 12px !important;
+    color: #636363 !important;
+}
+
+.panel-heading {
+    background: #fff !important;
+    border-color: #fff !important;
+}
+
+
+.panel-heading:hover .AccordionHeader {
+     color: #10a6df !important;
+}
+
 li {
     
     list-style: none;
 }
 
+
+.schoolLogo {
+    width: 200px;
+}
+
+.stopgap {
+    height: 10px;
+}
+
+
+.stopgap2 {
+    height: 35px;
+}
+
+/*SKILLS SECTION===============================================*/
+
+.skillsHeader {
+     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.skillfont {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+
+/*NAVS================================================*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar {
+    background: #fff !important;
+}
+
+.navbar li {
+    font-family: 'lato';
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar li:hover {
+    background: #424242;
+    color: #fff !important;
+}
+
+.navbar li:hover a {
+    background: #424242;
+    color: #fff !important;
+}
 /*================================================*/
 
 /*Project STYLES================================================*/
@@ -92,11 +195,32 @@ li {
 
 .projectsHeader {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 20px;
     
+    
 }
+
+.projectsSectionHeader {
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+     text-align: center;
+}
+
+
+
+.projectsSubHeader {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size:16px;
+    text-align: center;
+}
+    
 
 .projectsOverview {
     font-family: 'Lato', sans-serif;
@@ -113,9 +237,14 @@ li {
 
 
 .centerButton {
-    text-align: center;
+    text-align: center !important;
 }
 
+
+.projectsRow {
+    background: #424242;
+    
+}
 
 
 
@@ -153,9 +282,9 @@ li {
 /*EXPERIENCE STYLES================================================*/
 
 .companyName {
-    text-align: center;
+    
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 20px;
 }
 
