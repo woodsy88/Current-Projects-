@@ -1,4 +1,0 @@
-
-<IfModule mod_alias.c>
-  RedirectMatch 301 ^.*/xmlrpc.php$ http://127.0.0.1/
-</IfModule>
