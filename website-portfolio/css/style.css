@@ -1,7 +1,48 @@
+.Containter1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Containter2 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.skillsWork {
+    font-size: 11px;
+    color: #707070;
+    margin-left: 5px;
+    padding-top: 12px;
+}
+
+.iconPosition {
+    padding-top: 8px;
+    
+}
+
+.containerSpace {
+    padding-right 15px;
+}
+
+
+
+
+
+
+
+
+
 /*BANNER*/
 
 .banner {
-    height: 350px;
+    height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +51,9 @@
     background: #3f5263;
     border-bottom: 1px solid transparent; 
 
-    
+    background: 
+              url('../img/banner-awoods.png') no-repeat center;
+  background-size: cover; */
        
 }
 
@@ -22,6 +65,9 @@
               #ffa949 url('../img/banner.jpg') no-repeat center;
   background-size: cover; */
 }
+
+
+
 
 .banner {
 -webkit-box-shadow:0px 1px 1px #424242;
@@ -242,8 +288,17 @@ li {
 
 
 .projectsRow {
-    background: #424242;
+
     
+}
+
+/*.caption {
+  height: 250px !important;
+}
+*/
+
+.projects-thumbnai {
+  
 }
 
 
@@ -260,20 +315,21 @@ li {
 
 .school {
     font-family: 'Montserrat';
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.6px;
     color: #444;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 .program {
    font-family: 'Montserrat';
+    font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.6px;
     color: #444;
-    font-size: 20px; 
+    font-size: 22px; 
 }
 
 
@@ -325,6 +381,21 @@ li {
 /*================================================*/
 
 
+/*==================EDUCATION STYLE=====================*/
+
+.educationContainer {
+    display: flex;
+    flex-direction: column;
+       text-align: center
+}
+
+.educationItem1 {
+   padding-bottom
+: 40px;}
+
+.educationimage {
+    max-width: 250px;
+}
 
 /*==================SKILLS STYLE=====================*/
 

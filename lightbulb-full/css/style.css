@@ -11,6 +11,13 @@
    
 }
 
+.banner1 {
+
+     
+  background: url('../img/testbanner.jpg') no-repeat center;
+  background-size: cover; 
+}
+
 .blogtiles {
     margin-top: 20px;
 }

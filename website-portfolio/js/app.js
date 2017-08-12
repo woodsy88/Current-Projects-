@@ -12,6 +12,18 @@ $(document).ready(function(){
         active: false,
         
     });
+    
+    $("#accordion3").accordion({
+      collapsible: true,
+        active: false,
+        
+    });
+    
+     $("#accordion4").accordion({
+      collapsible: true,
+        active: false,
+        
+    });
 
     
     

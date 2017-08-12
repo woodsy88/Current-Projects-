@@ -1,0 +1,238 @@
+
+
+.topBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   /* background: #3f5263;  */
+    padding-bottom: 1%;
+    margin-top: 10px;
+}
+
+
+.topBanner {
+    background: url('../img/contactroom2.jpg') no-repeat center;
+  background-size: cover;
+    
+}
+
+/*FONT-STYLES*/
+
+
+.bannerTitle {
+    font-family: 'montserrat', sans-serif;
+    color: #424242;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.6px;
+   
+}
+
+
+.subHeader {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.howitworkslist {
+    margin-top: 20px;
+    
+}
+
+.logo {
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 15px
+}
+
+form {
+    max-width: 400px;
+    background: #3f5263; 
+    padding-bottom: 20px;
+        padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    margin: 0 auto;
+    border-radius: 15px;
+      
+}
+
+.button {
+   background:  #3299bb !important;
+    font-weight: 600 !important;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+
+
+
+.headerOne {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    text-align: center
+    
+}
+
+.HowItWorksHeader {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+   
+    
+}
+
+.headerForm {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-align: center;
+    
+}
+
+.registered {
+     font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.youtube {
+    margin-top: 60px;
+}
+
+.buttonAlignment {
+    text-align: center;
+}
+
+
+
+
+.headerTwo {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.6px;
+}
+
+.bannerSubText {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.footertext {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+.bodyFont {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+.benefits {
+      font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.6px;
+}
+
+.benefitsSection {
+   padding-bottom: 15px; 
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+.stepHeader {
+    font-family: 'montserrat', sans-serif;
+    color: #444;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+   
+    
+}
+
+.footer {
+    margin: 0 auto;
+}
+
+.stepDescription {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.6px;
+}
+
+.highlight {
+    color: #3299bb;
+    font-weight: 800;
+}
+
+.highlight2 {
+    color: #3299bb;
+    font-weight: 600;
+}
+
+
+.mainrow {
+    padding-bottom: 3%;
+}
+
+.fa {
+    margin-right: 10px;
+        font-size: 22px !important;
+    color: #3299bb;
+}
+
+.youtube {
+    width: 500px
+}
+

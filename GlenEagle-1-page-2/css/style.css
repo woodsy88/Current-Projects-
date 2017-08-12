@@ -20,12 +20,52 @@
 
 .banner {
     height: 600px;
+    
+      -webkit-display: flex;
+    -webkit-justify-content: center;
+   
     display: flex;
     justify-content: center;
 
    
     }
 
+
+/*BANNER BUTTON STYLE=========================================*/
+
+.bannerButton2 {
+    border-style: solid !important;
+    border-color: #fff!important;
+    border-width: 3px !important;
+     color: #fff !Important;
+    font-weight: 300 !important;
+}
+
+
+.bannerButton2:hover {
+  background-color: #396A92;
+     border-color: #396A92 !important;
+  color: #fff !Important;
+    text-decoration: none;
+}
+
+.bannerButton1 {
+     border-style: solid !important;
+    border-color: #fff !important;
+    border-width: 3px !important;
+     color: #fff !Important;
+    font-weight: 300 !important;
+}
+
+.bannerButton1:hover {
+  background-color: #396A92;
+     border-color: #396A92 !important;
+  color: #fff;
+    text-decoration: none;
+}
+
+
+}
 
 .aboutText {
     max-width: 750px;
@@ -34,10 +74,20 @@
 }
 
 .bannerSpot {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-flex-direction: column;
+    
+    
+    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
+    
+    
     color: white;
     
 }
@@ -52,9 +102,14 @@
 
 
 .quotecenter {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    
+    
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .quote {
@@ -76,6 +131,9 @@
 }
 
 .centheadsub {
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    
     display: flex;
     flex-direction: row;
 }
@@ -169,6 +227,10 @@
 }
 
 .indilistrow {
+    -webkit-display: flex;
+    -webkit-justify-content: flex-start;
+    
+    
     display: flex;
     justify-content: flex-start;
     
@@ -190,6 +252,11 @@
 
 
 .flexcenter {
+   
+     -webkit-display: flex;
+    -webkit-justify-content: center;
+    
+    
     display: flex;
     justify-content: center;
     margin-top: 60px;
@@ -202,7 +269,10 @@
 .ContactSection {
     
 padding-bottom: 3.5em;
-    display: flex;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    
+     display: flex;
     justify-content: center;
 }
 
@@ -240,13 +310,25 @@ padding-bottom: 3.5em;
 .sectionheader {
     
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 35px;
+    font-size: 50px;
     text-transform: uppercase;
-    font-weight:800;
+    font-weight:500;
     color: #222;
     text-align: center;
-      margin-bottom: 35px;
-   
+      
+}
+
+.sectionSubheader {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:28px;
+    text-transform: uppercase;
+    font-weight:200;
+    color: #222;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 50px;
+      
+    
 }
 
 .sectionheaderwhite {
@@ -254,28 +336,70 @@ padding-bottom: 3.5em;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 35px;
     text-transform: uppercase;
-    font-weight:800;
+    font-weight: 600;
     color: white;
     text-align: center;
       margin-bottom: 35px;
    
 }
 
-.headerOne {
+
+.headerOneTop {
     
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
     color: #222;
     text-transform: uppercase;
     font-weight: 600;
+    margin-bottom: -23px;
+   
+}
+
+.headerOneSubHeaderTop {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.headerOne {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: -17px;
+}
+
+.headerOneSubHeader {
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 30px;
 }
 
 .headerTwo {
      font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     color: #222;
-    text-transform: capitalize;
-    font-weight: 600;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.headerIndividual {
+     font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
 }
 
 .bodyfont {
@@ -364,6 +488,10 @@ padding-bottom: 3.5em;
 
 
 .topofmodal {
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-flex-direction: column;
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -511,13 +639,18 @@ padding-bottom: 3.5em;
 }
 
 .footer {
-   height: 75px;
+   height: 125px;
     background: #424242;
-    display: flex;
+    -webkit-display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    -webkit-flex-direction: column;
+    
+    
+     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
     
 }
 
@@ -531,17 +664,35 @@ padding-bottom: 3.5em;
 
 .footeraddress {
      font-family: 'Open Sans', sans-serif;
-    color: #FDFDFD;
+    color: #d7d7d7;
      font-size: 15px;
+    font-weight: 300;
 }
 
 
 .featuredHeights {
-    color: white;
-    font-family: 'Open Sans', sans-serif;;
+    color: #d7d7d7;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -2px;
+    font-weight: 300;
+    font-size: 12px;
 }
 
-.heightsLink {}
+.heightsLink {
+    color: #d7d7d7;
+}
+
+.heights {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.featured  {
+    font-weight: 200;
+    font-size: 15px;
+}
+
+
 
 
 /*Residential Page=========================================*/
@@ -709,4 +860,27 @@ text-align: center;
     
     
    
+}
+
+
+
+@media (max-width: 600px) {
+    
+    .subheader {
+        font-size: 22px;
+        
+    }
+    
+    .blueeagle {
+        max-width: 300px
+    }
+    
+    
+    .phonestyle {
+    font-size: 16px;
+}
+    
+    .phoneNumber {
+        font-size: 16px;
+    }
 }
